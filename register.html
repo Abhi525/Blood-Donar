@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blood Donor Signup</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Amarante|Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="blooddonor.css">
+	<link rel="stylesheet" href="register.css">
+</head>
+<body>
+	<nav class="navbar ">
+		<div class="container-fluid navbar-bg">
+			<div class="navbar-header ">
+				<a class="navbar-brand head " href="https://vikashtech.com">Blood Donor</a>
+			</div>
+			<div class="menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li ><a href="blooddonor.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+					<li><a href="royalprogramer.html"><span class="glyphicon glyphicon-user"></span>  Account</a></li>
+					<li class="active"><a href="register.html"><span class="glyphicon glyphicon-user"></span>  Join Us</a></li>
+					<li><a href="dashboard.html"><span class="glyphicon glyphicon-log-out" style='color:#f00;'></span> Logout</a></li>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-xs-9 main-box">
+				<label>Name</label> <input type="text" name="Name" class="form-control"><br/>
+				<label>Age</label> <input type="number" name="Age" class="form-control"><br/>
+				<label>sex</label><input type="radio" name="gender"/> Male   
+				<input type="radio" name="gender"/> Female <br/>
+				<label>Contact No.</label><input type="number" class="form-control" ><br/>
+				<b>How Many Times You Have Donate Your Blood ?</b> <input type="number" class="form-control"><br/>
+				<label>State</label><input type="text" class="form-control" ><br/>
+				<label>District</label><input type="text" class="form-control" >
+				<label>City</label><input type="text" class="form-control">
+				<label>Pin Code</label><input type="text" class="form-control" >
+				<label>Create Password</label><input type="password" class="form-control" >
+				<label>Confirm Password</label><input type="password" class="form-control" ><br/><br/>
+				<button type="button" class="btn btn-success btn-block">Join Us</button>
+			</div>
+			<div class="col-xs-3">
+				
+			</div>
+		</div>		
+	</div>
+</body>
+</html>

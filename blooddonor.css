@@ -1,0 +1,87 @@
+/*	
+	google fonts
+	<link href="https://fonts.googleapis.com/css?family=Amarante|Kaushan+Script&display=swap" rel="stylesheet"> 
+	font-family: 'Amarante', cursive;
+font-family: 'Kaushan Script', cursive;
+*/
+.navbar-bg{
+	margin-top: 10px;
+	padding-left:10vw;padding-right: 10vw; 
+	border-bottom: 2px solid #eee;border-top: 2px solid #eee;
+	box-shadow: 2px 3px 10px #fee;
+	}
+.head{
+	margin-top: 10px;
+	font-size: 50px;
+	text-shadow: 3px 5px 10px black;
+	font-family: "Kaushan Script";
+	color:#242b54;
+}
+.head:hover{
+	color: #242b54;
+}
+
+.menu{
+	margin-top: 20px;
+	font-family: "Kaushan Script";
+
+}
+.active{
+	color:  #242b54;
+}
+.left-pnl{
+	border-right: 2px solid #eee;
+	min-height: 80vh;
+	font-family: "Kaushan Script";
+}
+
+.bt>button{
+	width: 48%;
+	margin: 5px;
+	font-size: 20px;
+	font-family: "Kaushan Script";
+}
+.bt>button:hover{
+	box-shadow: 3px 5px 20px #f00;
+}
+.box{
+	height: 75vh;
+	border-left: 2px solid #eee;
+	box-shadow: 3px 5px 15px #f00;
+	font-family: "Kaushan Script";
+}
+.feed{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	font-weight: inherit;
+}
+.feed>p{
+	font-family: Amarante ;
+}
+.pic{
+	height: 75vh;
+}
+
+.login-form{
+	border:2px solid transparent;
+	padding: 15px;
+	box-shadow: 5px 10px 20px #888;
+	font-family: "Kaushan Script";
+}
+.login-form>label{
+	font-weight: normal;
+}
+.join-box{
+	border:2px solid #eee;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	font-family: "Kaushan Script";
+}	
+.right-pnl>p{
+	font-family: Amarante ;
+	font-weight: inherit;
+	font-size: 20px;
+}
